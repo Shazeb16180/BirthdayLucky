@@ -9,7 +9,7 @@ function check(){
     for(var i=0;i<d.length;i++){
         sum=sum+parseInt(d[i]);
     }
-    if(sum==txt){
+    if(sum%txt==0){
         document.querySelector("#check2").style.display="block";
         document.querySelector("#check1").style.display="none";
     }
