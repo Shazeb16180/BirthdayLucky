@@ -11,11 +11,12 @@
     <div id="container">
     <header><h1>Check If Your Birthday is Lucky</h1> </header>
     <main>
+        <form onsubmit="check(); return false">
         <h2>Enter Your Birthday below and Click Check:</h2>
-        <input type="date" id="dt"></input>
+        <input type="date" id="dt" required></input>
         <h2>Enter the lucky Number:</h2>
-        <input type="text" id="txt1"></input>
-        <button onclick="check()">Check</button>
+        <input type="text" id="txt1" required></input>
+        <button>Check</button>
         <div id="check1">
             <img src="images/sad.png"/>
             <h3>Oops Your Birthday is unlucky</h3>
@@ -24,6 +25,7 @@
             <img src="images/happy.png"/>
             <h3>Congrats Your Birthday is lucky</h3>
         </div>
+        </form>
     </main>
     <footer>
         <h2>Connect us:</h2>
