@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/birthday.jpg");
+    background-image: url("/images/birthday.JPG");
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
@@ -43,4 +43,18 @@ ul{
 li{
     margin: 2px;
     display: inline;
+}
+.alert{
+    text-align: center;
+    font-size: large;
+    background:black;
+    padding:1rem;
+    border-radius: 12px;
+}
+#closebtn{
+    position: absolute;
+   right: 10px;
+   top:8px;
+   margin: 2px;
+   cursor: pointer;
 }
