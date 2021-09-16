@@ -16,7 +16,7 @@
         <h2>Enter Your Birthday below and Click Check:</h2>
         <input type="date" id="dt" required></input>
         <h2>Enter the lucky Number:</h2>
-        <input type="number" id="txt1"  min="1" required></input>
+        <input type="number" id="txt1"  min="1" oninput="validity.valid||(value=' ');" required></input>
         <button>Check</button>
         <div id="check1">
             <img src="images/sad.png"/>
